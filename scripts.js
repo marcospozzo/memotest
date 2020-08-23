@@ -1,3 +1,5 @@
+// game logic used is https://github.com/code-sketch/memory-game/ by Marina Ferreira
+
 const cards = document.querySelectorAll(".card");
 
 let hasFlippedCard = false;
