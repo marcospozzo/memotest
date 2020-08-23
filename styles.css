@@ -61,7 +61,6 @@ h5 {
   height: 100%;
   border-radius: 5px;
   backface-visibility: hidden;
-  /* display: none; */
 }
 
 .front {
@@ -85,6 +84,7 @@ h5 {
   }
 }
 
+/* for mobile devices x and y axis are switched */
 @media (max-width: 600px), (max-height: 300px) {
   .memotest {
     width: 200px;
