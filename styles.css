@@ -67,16 +67,6 @@ h5 {
   transform: rotateY(180deg);
 }
 
-/* .back {
-  display: none;
-} */
-
-/* @media (min-width: 600px) and (max-width: 1200px) {
-  .memotest {
-    transform: scale (2);
-  }
-} */
-
 @media (max-width: 1200px) {
   .memotest {
     width: 900px;
@@ -96,8 +86,8 @@ h5 {
 
 @media (max-width: 600px) {
   .memotest {
-    width: 300px;
-    height: 600px;
+    width: 200px;
+    height: 400px;
   }
 
   .card {
@@ -109,5 +99,9 @@ h5 {
     transform: scale(1);
     transform-style: preserve-3d;
     transition: transform 0.5s;
+  }
+
+  h5 {
+    font-size: 8px;
   }
 }
