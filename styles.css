@@ -13,7 +13,7 @@ body {
 }
 
 .memotest {
-  /* border: 4px solid  blue; */
+  /* border: 4px solid blue; */
   width: 1200px;
   height: 600px;
   display: flex;
@@ -31,6 +31,9 @@ body {
   transform: scale(1);
   transform-style: preserve-3d;
   transition: transform 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
 }
 
 .card.flip {
@@ -42,6 +45,13 @@ body {
   transition: transform 0.2s;
 }
 
+h5 {
+  text-transform: uppercase;
+  transform: scaleX(-1);
+  margin-bottom: 5%;
+  color: white;
+}
+
 .front,
 .back {
   /* border: 4px solid black; */
@@ -50,13 +60,41 @@ body {
   height: 100%;
   border-radius: 5px;
   backface-visibility: hidden;
+  /* display: none; */
 }
 
 .front {
   transform: rotateY(180deg);
 }
 
+/* .back {
+  display: none;
+} */
+
+/* @media (min-width: 600px) and (max-width: 1200px) {
+  .memotest {
+    transform: scale (2);
+  }
+} */
+
 @media (max-width: 1200px) {
+  .memotest {
+    width: 900px;
+    height: 450px;
+  }
+}
+
+@media (max-width: 900px) {
+  .memotest {
+    width: 600px;
+    height: 300px;
+  }
+  h5 {
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 600px) {
   .memotest {
     width: 300px;
     height: 600px;
@@ -64,8 +102,8 @@ body {
 
   .card {
     /* border: 4px solid pink; */
-    height: calc(16.66% - 6px);
     width: calc(33.33% - 6px);
+    height: calc(16.66% - 6px);
     position: relative;
     margin: 3px;
     transform: scale(1);
