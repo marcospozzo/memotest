@@ -9,7 +9,7 @@ body {
   background-color: brown;
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
 }
 
 .memotest {
@@ -18,7 +18,6 @@ body {
   height: 600px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   order: unset;
   perspective: 1000px;
 }
@@ -89,6 +88,7 @@ h5 {
   .memotest {
     width: 200px;
     height: 400px;
+    align-items: flex-start;
   }
 
   .card {
@@ -99,5 +99,9 @@ h5 {
   }
   h5 {
     font-size: 6px;
+  }
+
+  body {
+    align-items: flex-start;
   }
 }
