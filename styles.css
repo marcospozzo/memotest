@@ -51,6 +51,7 @@ h5 {
   transform: scaleX(-1);
   margin-bottom: 3%;
   color: white;
+  overflow: hidden;
 }
 
 .front,
@@ -74,7 +75,7 @@ h5 {
   }
 }
 
-@media (max-width: 900px), (max-height: 600px) {
+@media (max-width: 900px) {
   .memotest {
     width: 600px;
     height: 300px;
@@ -84,7 +85,7 @@ h5 {
   }
 }
 
-/* for mobile devices x and y axis are switched */
+/* for mobile devices x and y axis are inverted */
 @media (max-width: 600px), (max-height: 300px) {
   .memotest {
     width: 200px;
@@ -100,6 +101,6 @@ h5 {
     margin: 3px;
   }
   h5 {
-    font-size: 6px;
+    font-size: 7px;
   }
 }
