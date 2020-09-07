@@ -47,7 +47,6 @@ body {
           transform: scale(1);
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
-  overflow: visible !important;
   -webkit-transition: -webkit-transform 0.5s;
   transition: -webkit-transform 0.5s;
   transition: transform 0.5s;
