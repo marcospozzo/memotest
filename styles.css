@@ -95,8 +95,6 @@ body {
 
 h5 {
   text-transform: uppercase;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
   margin-bottom: 4%;
   color: white;
   overflow: hidden;
