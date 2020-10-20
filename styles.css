@@ -93,16 +93,6 @@ body {
           transform: rotateY(180deg);
 }
 
-h5 {
-  text-transform: uppercase;
-  -webkit-transform: scaleX(-1);
-          transform: scaleX(-1);
-  margin-bottom: 4%;
-  color: white;
-  font-family: "Lato", sans-serif;
-  font-size: 1rem;
-}
-
 @media (max-width: 1200px) {
   .memotest {
     width: 900px;
@@ -112,9 +102,6 @@ h5 {
     width: calc(16.66% - 8px);
     height: calc(33.33% - 8px);
     margin: 4px;
-  }
-  h5 {
-    font-size: 0.8rem;
   }
 }
 
@@ -127,9 +114,6 @@ h5 {
     width: calc(16.66% - 6px);
     height: calc(33.33% - 6px);
     margin: 3px;
-  }
-  h5 {
-    font-size: 0.5rem;
   }
 }
 
@@ -147,9 +131,6 @@ h5 {
     width: calc(33.33% - 4px);
     height: calc(16.66% - 4px);
     margin: 2px;
-  }
-  h5 {
-    font-size: 7px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
