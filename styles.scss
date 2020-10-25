@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
+$background: rgb(50, 50, 50);
+
 * {
   padding: 0;
   margin: 0;
@@ -8,7 +10,7 @@
 
 body {
   height: 100vh;
-  background-color: #b6b2b2;
+  background-color: $background;
   display: flex;
   justify-content: center;
 }
